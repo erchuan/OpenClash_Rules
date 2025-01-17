@@ -1,27 +1,36 @@
-#!name=UltraMobile_WiFiCalling
-#!desc=Ultra Mobile & WiFi Calling 配置规则
-# 适用于 Ultra Mobile SIM 卡的 WiFi Calling 功能
+# NAME: UltraMobile WiFi Calling
+# AUTHOR: LOWERTOP
+# REPO: https://github.com/LOWERTOP/Shadowrocket-First
+# UPDATED: 2025-01-17 10:00:00
+# DOMAIN: 11
+# DOMAIN-SUFFIX: 9
+# IP-CIDR: 5
+# TOTAL: 25
 
-# ==========【WiFi Calling 相关域名】==========
-DOMAIN-SUFFIX,t-mobile.com
-DOMAIN-SUFFIX,tmobile.com
 DOMAIN-SUFFIX,crl.t-mobile.com
-DOMAIN-SUFFIX,mascns.t-mobile.com
-DOMAIN-SUFFIX,eas3.msg.t-mobile.com
-DOMAIN-SUFFIX,ns.sipgeo.t-mobile.com
 DOMAIN-SUFFIX,depdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,eas3.msg.t-mobile.com
 DOMAIN-SUFFIX,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,mascns.t-mobile.com
+DOMAIN-SUFFIX,ns.sipgeo.t-mobile.com
+DOMAIN-SUFFIX,optimizely.com
+DOMAIN-SUFFIX,redirect.ultra.me
 DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
-
-# ==========【Ultra Mobile 相关域名】==========
 DOMAIN-SUFFIX,ultramobile.com
-DOMAIN-SUFFIX,ultra.me
-DOMAIN-SUFFIX,my.ultramobile.com    # 确保包括 my.ultramobile.com
-DOMAIN,redirect.ultra.me
 
-# ==========【Ultra Mobile 相关 IP】==========
-IP-CIDR,206.29.177.36/32
-IP-CIDR,208.54.0.0/16
-IP-CIDR,66.94.0.0/19
+IP-CIDR,206.29.177.36/32,no-resolve
+IP-CIDR,208.54.0.0/16,no-resolve
+IP-CIDR,66.94.0.0/19,no-resolve
+
+# Optional Process Names related to UltraMobile WiFi Calling apps
+PROCESS-NAME,UltraMobileApp.exe
+PROCESS-NAME,WiFiCallingApp.exe
+
+# Optional IP-ASN related to UltraMobile and WiFi Calling
+IP-ASN,20940,no-resolve
+IP-ASN,7018,no-resolve
+IP-ASN,30000,no-resolve
+
+# End of UltraMobile WiFi Calling rules
