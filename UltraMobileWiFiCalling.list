@@ -1,10 +1,10 @@
 #!name=UltraMobile_WiFiCalling
 #!desc=Ultra Mobile & WiFi Calling 配置规则
 # 适用于 Ultra Mobile SIM 卡的 WiFi Calling 功能
-# 使用本规则后，打开飞行模式后再关闭飞行模式进行联网，即可正常开启 WiFi Calling
 
 # ==========【WiFi Calling 相关域名】==========
 DOMAIN-SUFFIX,t-mobile.com
+DOMAIN-SUFFIX,tmobile.com
 DOMAIN-SUFFIX,crl.t-mobile.com
 DOMAIN-SUFFIX,mascns.t-mobile.com
 DOMAIN-SUFFIX,eas3.msg.t-mobile.com
@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 # ==========【Ultra Mobile 相关域名】==========
 DOMAIN-SUFFIX,ultramobile.com
 DOMAIN-SUFFIX,ultra.me
+DOMAIN-SUFFIX,my.ultramobile.com    # 确保包括 my.ultramobile.com
 DOMAIN,redirect.ultra.me
 
 # ==========【Ultra Mobile 相关 IP】==========
