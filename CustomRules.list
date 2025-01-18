@@ -1,0 +1,13 @@
+# NAME: CustomRules
+# AUTHOR: erchuan
+# REPO: https://github.com/erchuan/OpenClash_Rules
+# UPDATED: 2025-1-18 11:51:10
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 1
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# TOTAL: 1
+
+
+# 直连 digisunlord.com 后缀的域名
+DOMAIN-SUFFIX,digisunlord.com
