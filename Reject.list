@@ -1,1 +1,25 @@
+# 禁止douyin相关的连接 
+
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,douyinliving.com
+DOMAIN-SUFFIX,tos.douyinstatic.com
+DOMAIN-SUFFIX,sso.douyin.com
+DOMAIN,lf.douyin.com
+DOMAIN,lf-zt.douyin.com
+DOMAIN,lf-douyin-pc-web.douyinstatic.com
+DOMAIN,v3-web-prime.douyinvod.com
+DOMAIN,sf1-cdn-tos.douyinstatic.com
+DOMAIN,www.douyin.com
+DOMAIN,p26-sign.douyinpic.com
+DOMAIN,p3-pc-sign.douyinpic.com
+DOMAIN,pull-f5.douyinliving.com
+DOMAIN-KEYWORD,douyin
+IP-CIDR,203.205.0.0/16,no-resolve
+IP-CIDR,39.156.0.0/14,no-resolve
+IP-CIDR,182.254.0.0/16,no-resolve
+PROCESS-NAME,Douyin
+
 
