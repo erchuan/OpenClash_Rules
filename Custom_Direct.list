@@ -10,4 +10,22 @@
 
 
 # 直连 digisunlord.com 后缀的域名
-DOMAIN-SUFFIX,digisunlord.com
+# DOMAIN-SUFFIX,digisunlord.com
+DOMAIN-SUFFIX,maxlichuan.top
+DOMAIN-SUFFIX,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+IP-CIDR,206.29.177.36/32,no-resolve
+IP-CIDR,208.54.0.0/16,no-resolve
+IP-CIDR,66.94.0.0/19,no-resolve
+
+
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,dns.msftncsi.com
+DOMAIN-SUFFIX,msftncsi.com
+IP-CIDR,131.107.255.255/32,no-resolve
+  
+# add  VPS ip   2025.3.17 
+IP-CIDR,45.221.114.213/32,no-resolve
+IP-CIDR,23.94.218.218/32,no-resolve
