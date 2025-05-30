@@ -1,6 +1,15 @@
 # NAME: Custom_Proxy
-# AUTHOR: max
+# AUTHOR: Max
 # REPO: https://github.com/erchuan/OpenClash_Rules
 # 强制代理列表，来自个人收集
 
-# GooglePlay 相关
+
+
+DOMAIN-SUFFIX,openwrt.org
+DOMAIN-SUFFIX,www.openwrt.org
+DOMAIN-SUFFIX,downloads.openwrt.org
+DOMAIN-SUFFIX,forum.openwrt.org
+DOMAIN-SUFFIX,one.one.one.one
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,cdn-lfs.hf.co
+IP-CIDR,1.1.1.1/32,no-resolve
