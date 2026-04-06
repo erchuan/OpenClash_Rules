@@ -8,8 +8,6 @@
 # IP-CIDR6: 0
 # TOTAL: 1
 payload:
-  - DOMAIN,browser-intake-datadoghq.com
-
 # 直连 digisunlord.com 后缀的域名
 # DOMAIN-SUFFIX,digisunlord.com
   - DOMAIN-SUFFIX,maxlichuan.top
