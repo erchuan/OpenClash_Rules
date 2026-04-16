@@ -11,7 +11,7 @@ payload:
   - DOMAIN-SUFFIX,one.one.one.one
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,cdn-lfs.hf.co
-  - IP-CIDR,1.1.1.1/32,no-resolve
+
 
   - SRC-IP-CIDR,192.168.220.110/32,DIRECT
   - SRC-IP-CIDR,192.168.220.171/32,DIRECT 
