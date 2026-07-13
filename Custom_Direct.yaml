@@ -28,3 +28,5 @@ payload:
 # add  VPS ip   2025.3.17 
   - IP-CIDR,45.221.114.213/32,no-resolve
   - IP-CIDR,23.94.218.218/32,no-resolve
+# add  VPS ip   2025.3.17 
+  - SRC-IP-CIDR,192.168.221.196/32,no-resolve
