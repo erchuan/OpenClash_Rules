@@ -13,5 +13,5 @@ payload:
   - DOMAIN-SUFFIX,cdn-lfs.hf.co
 
 
-#  - SRC-IP-CIDR,192.168.220.110/32,DIRECT
-  - SRC-IP-CIDR,192.168.220.171/32,DIRECT 
+#  - SRC-IP-CIDR,192.168.220.110/32,no-resolve
+  - SRC-IP-CIDR,192.168.220.171/32,no-resolve
